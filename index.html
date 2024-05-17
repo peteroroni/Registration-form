@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  
+    <link rel="stylesheet" href="style.css">
+     
+   
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Regisration Form </title> 
+</head>
+<body>
+    <div class="container">
+        <header>Registration</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Patient Identifying Information</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Last Name</label>
+                            <input type="text" placeholder="Enter Last name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>First Name</label>
+                            <input type="text" placeholder="Enter First name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Middle Initial</label>
+                            <input type="text" placeholder="Enter middle initial" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Age</label>
+                            <input type="number" placeholder="Enter your age" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Race</label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>White</option>
+                                <option>Black</option>
+                                <option>ASian/Pacific Islander</option>
+                                <option>Unknown</option>
+                                <option>Others
+                                    <input type="text" placeholder="Enter race" required>
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Hispanic or Latino?</label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                                <option>Unknown</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Phone Number</label>
+                            <input type="number" placeholder="Enter your Phone Number" required>
+                        </div>
+                    </div>
+                </div>
+                <button class="nextBtn">
+                    <span class="btnText">Next</span>
+                    <i class="uil uil-navigator"></i>
+                </button>
+
+                
+            </div>
+
+            <div class="form second">
+                
+                    <div class="details address">
+                        <span class="title">Facility: (If Hospitalized)</span>
+    
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Name</label>
+                                <input type="text" placeholder="Enter Facility Name" >
+                            </div>
+    
+                            <div class="input-field">
+                                <label>City</label>
+                                <input type="text" placeholder="Enter City Name" >
+                            </div>
+    
+                            <div class="input-field">
+                                <label>County</label>
+                                <input type="text" placeholder="Enter County Name" >
+                            </div>
+    
+                            <div class="input-field">
+                                <label>State</label>
+                                <input type="text" placeholder="Enter State Name" >
+                            </div>
+    
+                            <div class="input-field">
+                                <label>Medical Record #</label>
+                                <input type="number" placeholder="Enter your Medical Record Number" >
+                            </div>
+                        </div>
+    
+                        
+                    </div> 
+                
+
+                <div class="details family">
+                    <span class="title">Present Address</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Facility Name: (If Applicable)</label>
+                            <input type="text" placeholder="Enter facility name(optional)" >
+                        </div>
+
+                        <div class="input-field">
+                            <label>Street</label>
+                            <input type="text" placeholder="Enter street name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>City</label>
+                            <input type="text" placeholder="Enter City name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>County</label>
+                            <input type="text" placeholder="Enter County name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>State</label>
+                            <input type="text" placeholder="Enter State name" required>
+                        </div>
+
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
